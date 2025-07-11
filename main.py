@@ -235,7 +235,36 @@
 # Output: 
 # ((1, 2), (2, 1))
 
-# tuple = [(1, 2), (4, 6), (5, 5), (2, 1)]
+tuple = [(1, 2), (4, 6), (5, 5), (2, 1)]
+tuple_res = []
+min = 999999
+for i in tuple:
+    cnt = 0
+    for j in i:
+        cnt+=j
+    if cnt < min:
+        min = cnt
+        tuple_res.append(i)
+print(tuple_res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # min_x = 999999
 # min_y = 999999
 # for i in tuple:
