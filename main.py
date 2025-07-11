@@ -152,20 +152,25 @@
 # Output:
 # [(1, 4), (2, 3)]
 
-list = [1, 2, 3, 4, 5]
-k = 5
-list_res = []
-cnt = 0
-list_sum = []
-for i in list:
-    cnt+=i
-    list_sum.append(cnt)
-    print(cnt)
-    if(cnt == k):
-        list_res.append(tuple(list_sum))
-        cnt = 0
-        list_sum = []
-print(list_res)
+# list = [1, 2, 3, 4, 5]
+# k = 5
+# list_res = []
+# for i in range(0, len(list)):
+#     cnt = 0
+#     tuplee = []
+#     tuplee.append(list[i])
+#     cnt += list[i]
+#     for j in range(i, len(list)):
+#         if j == i:
+#             continue
+#         else:
+#             cnt += list[j]
+#             if cnt == k:
+#                 tuplee.append(list[j])
+#                 list_res.append(tuple(tuplee))
+#             else:
+#                 cnt -= list[j]
+# print(list_res)
 
 
 
